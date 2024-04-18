@@ -33,7 +33,7 @@ function myMenuFunction(){
 
 /* ----- TYPING EFFECT ----- */
  var typingEffect = new Typed(".typedText",{
-    strings : ["Designer","Youtuber","Developer"],
+    strings : ["Developer","Student"],
     loop : true,
     typeSpeed : 100, 
     backSpeed : 80,
@@ -57,9 +57,12 @@ sr.reveal('.featured-text-btn',{delay: 200})
 sr.reveal('.social_icons',{delay: 200})
 sr.reveal('.featured-image',{delay: 300})
 
+// project
+sr.reveal('.education-box',{interval: 200})
 
-/* -- PROJECT BOX -- */
-sr.reveal('.project-box',{interval: 200})
+
+/* -- education BOX -- */
+sr.reveal('.education-box',{interval: 200})
 
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
@@ -115,3 +118,4 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive)
+

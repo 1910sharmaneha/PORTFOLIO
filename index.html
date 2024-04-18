@@ -11,16 +11,17 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- --------- FAVICON ---------- -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/avatar.jpg" type="image/x-icon">
 
-    <title>Portfolio | Ludiflex</title>
+
+    <title>Portfolio </title>
 </head>
 <body>
    <div class="container">
     <!-- --------------- HEADER --------------- -->
       <nav id="header">
         <div class="nav-logo">
-            <p class="nav-name">Doe</p>
+            <p class="nav-name"> Portfolio</p>
             <span>.</span>
         </div>
         <div class="nav-menu" id="myNavMenu">
@@ -34,6 +35,10 @@
                     <div class="circle"></div>
                 </li>
                 <li class="nav_list">
+                    <a href="#education" class="nav-link">Education</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
                     <a href="#projects" class="nav-link">Projects</a>
                     <div class="circle"></div>
                 </li>
@@ -43,9 +48,12 @@
                 </li>
             </ul>
         </div>
-        <div class="nav-button">
-            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-        </div>
+        <div class="about-btn">
+            <a href="Resume.pdf" download="Resume.pdf" class="btn">
+              Download Resume <i class="uil uil-download-alt"></i>
+            </a>
+          </div>
+        
         <div class="nav-menu-btn">
             <i class="uil uil-bars" onclick="myMenuFunction()"></i>
         </div>
@@ -58,40 +66,51 @@
        <section class="featured-box" id="home">
           <div class="featured-text">
             <div class="featured-text-card">
-                <span>John Doe</span>
+                <span>Neha Sharma</span>
             </div>
             <div class="featured-name">
                 <p>I'm <span class="typedText"></span></p>
             </div>
             <div class="featured-text-info">
-                <p>Experienced frontend developer with a passion for creating visually stunning
-                   and user-friendly websites.
+                <p>Aspiring Full-Stack Developer with a strong foundation in both front-end and back-end technologies.
                 </p>
             </div>
             <div class="featured-text-btn">
                 <button class="btn blue-btn">Hire Me</button>
-                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                <button class="btn">View Resume <i class="uil uil-file-alt"></i></button>
+
             </div>
             <div class="social_icons">
-                <div class="icon"><i class="uil uil-instagram"></i></div>
-                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                <div class="icon"><i class="uil uil-dribbble"></i></div>
-                <div class="icon"><i class="uil uil-github-alt"></i></div>
+                <a href="https://leetcode.com/neha__1910/">
+                    <div class="icon"><i class="uil uil-link"></i></div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/neha-sharma-1561bb25b/">
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                  </a>
+                  <a href="https://github.com/1910sharmaneha">
+                    <div class="icon"><i class="uil uil-github-alt"></i></div>
+                  </a>
             </div>
           </div>
           <div class="featured-image">
             <div class="image">
-                <img src="assets/images/avatar.png" alt="avatar">
+                <img src="images/white.jpg" alt="avatar">
             </div>
           </div>
-          <div class="scroll-icon-box">
+          <div class="scroll-icon-box"> 
             <a href="#about" class="scroll-btn">
                 <i class="uil uil-mouse-alt"></i>
                 <p>Scroll Down</p>
             </a>
           </div>
 
+
+         
+          
+
        </section>
+
+        
        <!-- -------------- ABOUT BOX ---------------- -->
        <section class="section" id="about">
           <div class="top-header">
@@ -101,15 +120,15 @@
             <div class="col">
                 <div class="about-info">
                     <h3>My introduction</h3>
-                    <p>I am well-versed in HTML, CSS and JavaScript , and other cutting edge
-                       frameworks and libraries,which allows me to implement interactive features.
-                       Additionally, I have experirence working with content management systems (CMS) like
-                       WordPress.
+                    <p>Highly skilled Full-Stack Developer with a strong foundation in HTML, CSS, JavaScript, Node.js, Express.js, React, and other cutting-edge frameworks and libraries. I leverage this expertise to craft interactive features and bring web applications to life.  Proven ability to execute projects from conception to completion
                     </p>
+                    <br>
                     <div class="about-btn">
-                        <button class="btn">Download CV <i class="uil uil-import"></i></button>
-                    </div>
-                </div>
+                        <a href="Resume.pdf" download="Resume.pdf" class="btn">
+                          Download Resume <i class="uil uil-download-alt"></i>
+                        </a>
+                      </div>
+                      </div>
             </div>
             <div class="col">
                 <div class="skills-box">
@@ -120,10 +139,9 @@
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>Bootstrap</span>
-                        <span>JavaScript</span>
-                        <span>Vue</span>
                         <span>React</span>
-                        <span>Angular</span>
+                        <span>JavaScript</span>
+                       
                     </div>
                 </div>
                 <div class="skills-box">
@@ -131,9 +149,9 @@
                         <h3>Backend</h3>
                     </div>
                     <div class="skills-list">
-                        <span>PHP</span>
-                        <span>JAVA</span>
-                        <span>Python</span>
+                        <span>NodeJS</span>
+                        <span>JavaScript</span>
+                        <span>ExpressJS</span>
                         <span>C++</span>
                     </div>
                 </div>
@@ -149,30 +167,72 @@
                 </div>
             </div>
           </div>
-       </section>
 
-       <!-- -------------- PROJECT BOX ---------------- -->
-
-       <section class="section" id="projects">
-          <div class="top-header">
+          
+          <!-- Project -->
+          <section class="section" id="projects">
+            <div class="top-header">
               <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+              <div class="project-card">
+                <a href="https://1910sharmaneha.github.io/weather_app/">
+                  <h3>Weather Wise</h3>
+                  <p>Live climate condition of cities</p>
+                </a>
+
+
+                
+              </div>
+              <div class="project-card">
+                <a href="https://1910sharmaneha.github.io/SimonGame/">
+                  <h3>Simon Game</h3>
+                  <p>Memory Based Game</p>
+                </a>
+              </div>
+              <div class="project-card">
+                <a href="https://1910sharmaneha.github.io/drums/">
+                    <h3>Drum Set Simulator</h3>  
+                    <p>A virtual drum set to practice your beats.</p>  
+                </a>
+                  
+              </div>
+              
+            </div>
+          </section>
+          
+          
+
+       <!-- -------------- education BOX ---------------- -->
+
+       <section class="section" id="education">
+          <div class="top-header">
+              <h1>Education</h1>
           </div>
-          <div class="project-container">
-            <div class="project-box">
+          <div class="education-container">
+            <div class="education-box">
                 <i class="uil uil-briefcase-alt"></i>
-                <h3>Completed</h3>
-                <label>15+ Finished Projects</label>
+                <h3>SSN College of Engineering 2021-25 Chennai-Tamil Nadu</h3>
+                <label>Computer Science and Engineering</label>
+                <label>CGPA : 7.1/10</label>
             </div>
-            <div class="project-box">
+            <div class="education-box">
                 <i class="uil uil-users-alt"></i>
-                <h3>Clients</h3>
-                <label>25+ Happy Clients</label>
+                <h3>Aishwarya Innovative PU College  2019-2021 Maddur-Karnataka</h3>
+                <label>Karnataka Board-PCMC</label>
+                <label>Percentage: 96.7/100</label>
             </div>
-            <div class="project-box">
+            <div class="education-box">
                 <i class="uil uil-award"></i>
-                <h3>Experience</h3>
-                <label>7+ Years in the field</label>
+                <h3>Chinmaya Vidyalaya 2018-2019 Mandya-Karnataka</h3>
+                <label>CBSE</label>
+                <label>Percentage: 88.8/100</label>
             </div>
+
+
+          
+              
+
           </div>
        </section>
 
@@ -187,8 +247,8 @@
              <div class="col">
                 <div class="contact-info">
                     <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
-                    <p><i class="uil uil-envelope"></i> Email: john@doe.com</p>
-                    <p><i class="uil uil-phone"></i> Tel: +250 708 770 000</p>
+                    <p><i class="uil uil-envelope"></i> Email: 1910sharma.neha@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Phone No: 6364446412</p>
                 </div>
              </div>
              <div class="col">
@@ -214,7 +274,7 @@
     <!-- --------------- FOOTER --------------- -->
     <footer>
         <div class="top-footer">
-            <p>John Doe .</p>
+            <p>Neha Sharma </p>
         </div>
         <div class="middle-footer">
             <ul class="footer-menu">
@@ -225,6 +285,9 @@
                     <a href="#about">About</a>
                 </li>
                 <li class="footer_menu_list">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="footer_menu_list">
                     <a href="#projects">Projects</a>
                 </li>
                 <li class="footer_menu_list">
@@ -232,14 +295,23 @@
                 </li>
             </ul>
         </div>
+        
+
+
         <div class="footer-social-icons">
-            <div class="icon"><i class="uil uil-instagram"></i></div>
-            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-            <div class="icon"><i class="uil uil-dribbble"></i></div>
-            <div class="icon"><i class="uil uil-github-alt"></i></div>
-        </div>
+            <a href="https://leetcode.com/neha__1910/">
+              <div class="icon"><i class="uil uil-link"></i></div>
+            </a>
+            <a href="https://www.linkedin.com/in/neha-sharma-1561bb25b/">
+              <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            </a>
+            <a href="https://github.com/1910sharmaneha">
+              <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </a>
+          </div>
+          
         <div class="bottom-footer">
-            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">John Doe</a> - All rights reserved</p>
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Neha Sharma</a> - All rights reserved</p>
         </div>
     </footer>
 
